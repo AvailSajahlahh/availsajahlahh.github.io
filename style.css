@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+*
+{
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+body
+{
+    background: linear-gradient(45deg, #4e65ff, #62effd);
+}
+button
+{
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.3em;
+    border: none;
+    background-color: #ff0000;
+    color: rgb(229, 255, 0);
+    cursor: pointer;
+    size: 5em;
+    height: 3em;
+    transition: 1s;
+    transition-delay: 0.5s;
+    /* text-transform: lowercase; */
+}
+button:hover
+{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    transition-delay: 0.5s;
+    border-radius: 10em;
+    /* text-transform: uppercase; */
+}
+alert
+{
+    transition: 1s;
+}
+onclick
+{
+    transition: 1s;
+}
+function
+{
+    transition: 1s;
+}
+h3
+{
+    background-color: blue;
+    color: white;
+    border-right: none;
+    width: 10em;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+    cursor: default;
+    text-align: center;
+}
+h3:hover
+{
+    color: blue;
+    background-color: white;
+    transition: 1.5s;
+    width: 12em;
+    text-align: center;
+}
+.hidden
+{
+    background-color: white;
+    color: blue;
+    width: 1;
+    border-right: none;
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+    cursor: default;
+    right: 100cm;
+}
+p
+{
+    color: rgb(255, 0, 0);
+    text-decoration-style: bold;
+    text-emphasis-style: bold;
+    text-justify: bold;
+    text-decoration-thickness: 10em;
+}
